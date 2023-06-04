@@ -1,0 +1,146 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #ed0909;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fcb0b0;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  
+  .hero h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Features */
+  
+  .features {
+    padding: 50px;
+    background-color: #f69697;
+  }
+  
+  .features h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .feature-item {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature-item img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    color: #ff0505;
+  }
+  
+  /* Testimonials */
+  
+  .testimonial {
+    padding: 50px;
+    background-color: #f69697;
+  }
+  
+  .testimonial h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-item {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-item blockquote {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-item cite {
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
